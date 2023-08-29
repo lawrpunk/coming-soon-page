@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Base Apparel</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="base-box">
+        <div class="base-content">
+          <div class="base-logo-box">
+            <img class="base-logo" src="images/logo.svg" alt="logo" />
+          </div>
+          <div class="base-heading">
+            <h1>
+              <span>We're</span>
+              <span>coming</span>
+              <span>soon</span>
+            </h1>
+          </div>
+          <div class="base-description">
+            <p>
+              Hello fellow shoppers! We're currently building our new fashion
+              store. Add your email below to stay up-to-date with announcements
+              and our launch deals.
+            </p>
+          </div>
+          <form action="" method="post" id="emailForm">
+            <input
+              id="email"
+              class="email"
+              name="email"
+              type="email"
+              placeholder="Email Address"
+              autocomplete="off"
+              required
+            />
+            <img class="error-icon" src="images/icon-error.svg" alt="error" />
+            <button type="submit">
+              <img
+                class="submit-btn-arrow"
+                src="images/icon-arrow.svg"
+                alt="submit"
+              />
+            </button>
+          </form>
+          <p class="invalid-email-text">Please provide a valid email</p>
+        </div>
+      </div>
+
+      <div class="base-picture">
+        <img src="images/hero-desktop.jpg" alt="hero" />
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
